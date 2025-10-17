@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" spacing="8" padding="10">
+    <Label text="Task & Habit Manager" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+    <TabPane>
+        <Tab text="Tasks">
+            <VBox spacing="8" padding="8">
+                <ToolBar>
+                    <Button fx:id="refreshTasksBtn" text="Refresh" />
+                    <Button fx:id="addTaskBtn" text="Add Task" />
+                    <Button fx:id="deleteTaskBtn" text="Delete" />
+                    <Button fx:id="markCompleteBtn" text="Toggle Complete" />
+                </ToolBar>
+                <TableView fx:id="tasksTable" prefHeight="400">
+                    <columns>
+                        <TableColumn fx:id="taskIdCol" text="ID" prefWidth="60"/>
+                        <TableColumn fx:id="taskTitleCol" text="Title" prefWidth="200"/>
+                        <TableColumn fx:id="taskDescCol" text="Description" prefWidth="300"/>
+                        <TableColumn fx:id="taskDueCol" text="Due Date" prefWidth="120"/>
+                        <TableColumn fx:id="taskCompletedCol" text="Completed" prefWidth="90"/>
+                    </columns>
+                </TableView>
+            </VBox>
+        </Tab>
+
+        <Tab text="Habits">
+            <VBox spacing="8" padding="8">
+                <ToolBar>
+                    <Button fx:id="refreshHabitsBtn" text="Refresh" />
+                    <Button fx:id="addHabitBtn" text="Add Habit" />
+                    <Button fx:id="deleteHabitBtn" text="Delete" />
+                </ToolBar>
+                <TableView fx:id="habitsTable" prefHeight="400">
+                    <columns>
+                        <TableColumn fx:id="habitIdCol" text="ID" prefWidth="60"/>
+                        <TableColumn fx:id="habitNameCol" text="Name" prefWidth="300"/>
+                        <TableColumn fx:id="habitDayCol" text="Day(s)" prefWidth="200"/>
+                    </columns>
+                </TableView>
+            </VBox>
+        </Tab>
+    </TabPane>
+</VBox>

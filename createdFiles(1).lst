@@ -1,0 +1,7 @@
+com/example/taskhabitmanager/TaskHabitManagerApplication.class
+com/example/taskhabitmanager/model/Habit.class
+com/example/taskhabitmanager/repository/TaskRepository.class
+com/example/taskhabitmanager/repository/HabitRepository.class
+com/example/taskhabitmanager/controller/TaskController.class
+com/example/taskhabitmanager/controller/HabitController.class
+com/example/taskhabitmanager/model/Task.class

@@ -1,0 +1,8 @@
+/home/Adhi/task-habit-manager/backend/src/main/java/com/example/taskhabitmanager/repository/TaskRepository.java
+/home/Adhi/task-habit-manager/backend/src/main/java/com/example/taskhabitmanager/TaskHabitManagerApplication.java
+/home/Adhi/task-habit-manager/backend/src/main/java/com/example/taskhabitmanager/controller/HabitController.java
+/home/Adhi/task-habit-manager/backend/src/main/java/com/example/taskhabitmanager/model/Task.java
+/home/Adhi/task-habit-manager/backend/src/main/java/com/example/taskhabitmanager/model/Habit.java
+/home/Adhi/task-habit-manager/backend/src/main/java/com/example/taskhabitmanager/controller/TaskController.java
+/home/Adhi/task-habit-manager/backend/src/main/java/com/example/taskhabitmanager/config/SQLiteDialect.java
+/home/Adhi/task-habit-manager/backend/src/main/java/com/example/taskhabitmanager/repository/HabitRepository.java
